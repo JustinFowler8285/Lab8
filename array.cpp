@@ -5,7 +5,7 @@ using namespace std;
  * @brief prints the elements in the array and their memory locations
  * 
  * @param arr - array of integer
- * @param aize - the number of elements in the array
+ * @param size - the number of elements in the array
 */
 void printMemArr(const int * arr, int size) { // void printMemArr(int arr[], int size )
     printf( "Array - Each int is worth %lu bytes\n", sizeof(arr[0]));
