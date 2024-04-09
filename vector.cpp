@@ -18,9 +18,9 @@ void printMemVec(const vector<int> &v){
 
  @param v - address to a vector of intergers
 */
-void incVecBy10(vector<int> &v){
-    for(int &element : v){
-        element += 10;
+void incVecBy10(vector<int> &v ){
+    for(int i = 0; i < v.size(); i++){
+        v[i] += 10;
     }
 
 }
