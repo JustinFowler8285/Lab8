@@ -18,7 +18,7 @@ void printMemVec(const vector<int> &v){
 
  @param v - address to a vector of intergers
 */
-void inceVecBy10(vector<int> &v){
+void incVecBy10(vector<int> &v){
     for(int &element : v){
         element += 10;
     }
@@ -27,7 +27,7 @@ void inceVecBy10(vector<int> &v){
 
 int main() {
     // create a constant integer called SIZE that is of value 5
-    const int SIZE = 5
+    const int SIZE = 5;
     // create a vector of integers called vec that can hold up to 5 elements
     vector<int> vec(SIZE);
 
@@ -63,6 +63,6 @@ int main() {
     //call printMemvec(...) on vec again to view the changes
     printMemVec(vec);
 
-    
+
     return 0;
 }
