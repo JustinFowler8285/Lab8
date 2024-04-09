@@ -8,7 +8,7 @@ using namespace std;
  * @param v - vector of intergers
 */
 void printMemVec(const vector<int> &v){
-    cout << "Vector - Eacj int is worth " << sizeof(v[0]) << " bytes" << endl;
+    cout << "Vector - Each int is worth " << sizeof(v[0]) << " bytes" << endl;
     for(size_t i = 0; i < v.size(); i++) {
         cout << "Value: " << v[i] << " at Memory Location: " << &v[i] << endl;
     }
